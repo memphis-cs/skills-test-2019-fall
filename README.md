@@ -1,24 +1,3 @@
-# README
+# Skills Test Project (Fall 2019)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project will be used to conduct the Skills Tests in COMP 4081. Each branch will contain test instructions (in the README) and a Rails project to be used for the test.
