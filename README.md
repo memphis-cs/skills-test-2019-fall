@@ -1,4 +1,4 @@
-# Skills Test S2, Version A
+# Skills Test S2, Version B
 
 Be sure that you are familiar with have completed all the necessary [Skills Test instructions](https://memphis-cs.github.io/comp-4081/skills-test-instructions/) before beginning this test.
 
@@ -10,19 +10,19 @@ For this test, you must do the following:
 
     - Migrate and reset the database using `rails`.
 
-    You should now be able to run the Rails web server and view the page <http://localhost:3000/s02a> in your web browser.
+    You should now be able to run the Rails web server and view the page <http://localhost:3000/uofm-driven> in your web browser.
 
 1. Add a page to the app that looks exactly like the screenshot below, subject to the following additional requirements:
 
     - The URL for your page must also match the screenshot.
 
-    - The hyperlink should link to the `s02a` page mentioned above.
+    - The hyperlink should link to the `uofm-driven` page mentioned above.
 
-    - The image is included in the top-level repo folder; however, you must be move it to the appropriate subfolder in order to use it. Also, your code should scale the image to have a height of 100 pixels.
+    - The image (`university-of-memphis-logo.png`) is included in the top-level repo folder; however, you must be move it to the appropriate subfolder in order to use it. Also, your code should scale the image to have a height of 100 pixels.
 
     - You must use the appropriate Rails helper methods to make the hyperlink and image elements. That includes using the "path" helper instead of hardcoding a hyperlink path/URL.
 
-    - To create the page, in addition to the helper methods, you must use the following HTML elements: `form`, `h1`, `h2`, `input`, and `p`.
+    - To create the page, in addition to the helper methods, you must use the following HTML elements: `h1`, `h2`, `input`, `li`, `p`, and `ul`.
 
     - The controller action for the page must explicitly respond to the format requested and explicitly render the appropriate view.
 
