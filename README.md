@@ -8,11 +8,11 @@ For this skills test, you must do the following:
 
     - Create the PostgreSQL databases for the app using these three commands:
 
-    ```bash
-    sudo -i -u postgres psql -c "CREATE DATABASE skills_test_development OWNER vagrant;"
-    sudo -i -u postgres psql -c "CREATE DATABASE skills_test_test OWNER vagrant;"
-    sudo -i -u postgres psql -c "CREATE DATABASE skills_test_production OWNER vagrant;"
-    ```
+        ```bash
+        sudo -i -u postgres psql -c "CREATE DATABASE skills_test_development OWNER vagrant;"
+        sudo -i -u postgres psql -c "CREATE DATABASE skills_test_test OWNER vagrant;"
+        sudo -i -u postgres psql -c "CREATE DATABASE skills_test_production OWNER vagrant;"
+        ```
 
     - Migrate and reset the database using rails.
 
@@ -39,3 +39,5 @@ For this skills test, you must do the following:
 1. The root route currently goes to a default Rails page (see <http://localhost:3000/>). Change the root route to redirect to the page you created instead.
 
 Once you’ve completed all of the above, zip up your Rails project and upload the Rails project zip, the screenshot, and your .flv video recording to the eCourseware dropbox labeled Skills Test S2, Version A.
+
+![A screen shot of a webpage](./fig01.png)
