@@ -18,7 +18,7 @@ For this test, you must do the following:
 
     - The hyperlink should link to the `uofm-driven` page mentioned above.
 
-    - The image (`university-of-memphis-logo.png`) is included in the top-level repo folder; however, you must be move it to the appropriate subfolder in order to use it. Also, your code should scale the image to have a height of 100 pixels.
+    - The image (`university-of-memphis-logo.png`) is included in the top-level repo folder; however, you must be move it to the appropriate subfolder in order to use it. Also, your code should scale the image to have a height of 150 pixels.
 
     - You must use the appropriate Rails helper methods to make the hyperlink and image elements. That includes using the "path" helper instead of hardcoding a hyperlink path/URL.
 
@@ -28,10 +28,10 @@ For this test, you must do the following:
 
     - The project already has a `PagesController` class. You must use this class in your solution (modifying it as necessary). Do not add a new controller class.
 
-    **Take a screenshot that shows the page (including the entire browser window), and save it with the file name `screenshot` (and whatever file suffix is appropriate).**
+    **Take a screenshot that shows the page (including the entire browser window), and save it with the file name `SCREENSHOT` (and whatever file suffix is appropriate).**
 
 1. The root route currently goes to a default Rails page (see <http://localhost:3000/>). Change the root route to _redirect_ to the page you created instead.
 
-Once you've completed all of the above, commit all your changes to the local repo (including the screenshot), and push your commit to GitHub. Upload your `.flv` video recording to the eCourseware dropbox labeled `Skills Test S2, Version A`.
+Once you've completed all of the above, commit all your changes to the local repo (including the screenshot), and push your commit to GitHub. Upload your `.flv` video recording to the eCourseware dropbox labeled `Skills Test S2, Version B`.
 
 ![A screen shot of a webpage](./fig01.png)
