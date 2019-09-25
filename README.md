@@ -20,13 +20,13 @@ Update the web app to add a form that looks and functions as follows. When the p
 
 ![A screen shot of a webpage with a form](./s04a_fig02.png)
 
-When a user enters and submits data via the form, the response page should look like this (note the echoed text and the empty form):
+When a user enters and submits data (e.g., "`Hello, world!`") via the form, the response page should look like this (note the echoed text and the empty form):
 
 ![A screen shot of a webpage with a form](./s04a_fig02.png)
 
 In implementing this form/behavior, you must do the following:
 
-- No route exists to handle the form submission. You must create that route.
+- No route exists to handle the form submission. You must create that route. (Before working on this, note what the next item has to say.)
 
 - A controller action does already exist to handle the form submission; however, that action is incomplete. You must complete it.
 
