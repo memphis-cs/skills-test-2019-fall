@@ -32,12 +32,12 @@ Update the web page such that it looks exactly like the screenshot below, subjec
 
 Once you've completed all of the above, submit your work by doing the following:
 
-1. Commit all your changes to the local repo (including the screenshot).
+1. Stage and commit all your changes to the local repo (including the screenshot).
 
-1. Generate a ZIP archive of your project by running the following command from within the project working directory:
+1. Generate a ZIP archive of your project by running the following command from within the top-level folder of your project's working directory:
 
     ```bash
-    git archive -o ~/workspace/s03b-submission.zip --prefix=s03b-submission/ HEAD
+    git archive -o ../s03b-submission.zip --prefix=s03b-submission/ HEAD
 
     ```
 
