@@ -22,7 +22,7 @@ Update the web app to add a form that looks and functions as follows. When the p
 
 When a user enters and submits data (e.g., "`Hello, world!`") via the form, the response page should look like this (note the echoed text and the empty form):
 
-![A screen shot of a webpage with a form](./s04a_fig02.png)
+![A screen shot of a webpage with a form](./s04a_fig03.png)
 
 In implementing this form/behavior, you must do the following:
 
