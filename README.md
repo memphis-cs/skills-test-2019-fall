@@ -22,7 +22,7 @@ For this test, you must do the following:
 
     - You must use the appropriate Rails helper methods to make the hyperlink and image elements. That includes using the "path" helper instead of hardcoding a hyperlink path/URL.
 
-    - To create the page, in addition to the helper methods, you must use the following HTML elements: `h1`, `h2`, `input`, `li`, `p`, and `ul`.
+    - To create the page, in addition to the helper methods, you must use the following HTML elements: `h1`, `h2`, `li`, `p`, and `ul`.
 
     - The controller action for the page must explicitly respond to the format requested and explicitly render the appropriate view.
 
