@@ -1,15 +1,15 @@
 class PagesController < ApplicationController
 
-    def echo
+    def parrot
         respond_to do |format|
-            format.html { render :echo, locals: { utterance: '(nothing yet)' } }
+            format.html { render :parrot, locals: { parrot_says: '(nothing)' } }
         end
     end
 
-    def do_echo
-        utterance = 'CHANGE ME'
+    def parrot_speak
+        parrot_says = 'WHAT DOES THE PARROT SAY?'
         respond_to do |format|
-            format.html { render :echo, locals: { utterance: utterance } }
+            format.html { render :parrot, locals: { parrot_says: parrot_says } }
         end
     end
 
