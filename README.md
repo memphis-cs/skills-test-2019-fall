@@ -30,7 +30,7 @@ Update the web app to add a form that looks and functions as follows. When the p
 
 ![A screen shot of a webpage with a form](./s04b_fig02.png)
 
-When a user enters and submits data (e.g., "`Hello, world!`") via the form, the response page should look like this (note what the parrot says as well as the emptied form):
+When a user enters and submits data (e.g., "`Polly want a cracker`") via the form, the response page should look like this (note what the parrot says as well as the emptied form):
 
 ![A screen shot of a webpage after form data has been submitted](./s04b_fig03.png)
 
