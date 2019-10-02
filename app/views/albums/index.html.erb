@@ -1,0 +1,20 @@
+<h1>Albums</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Artist</th>
+            <th>Album</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% albums.each do |a| %>
+            <tr>
+                <td><%= a.artist %></td>
+                <td><%= a.title %></td>
+                <td><%= a.year %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
