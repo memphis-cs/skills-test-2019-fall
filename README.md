@@ -18,7 +18,7 @@ Be sure that you are familiar with and have completed all the necessary [Skills 
 1. Initialize the project by doing the following:
    1. Install the Gems for the project using `bundle`.
    1. Install the JavaScript dependencies for the project using `yarn`.
-   1. Migrate and reset the database using `rails`.)
+   1. Migrate and reset the database using `rails`.
 
 Don't run the Rails server yet.
 
