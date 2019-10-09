@@ -1,0 +1,22 @@
+<h1>Dogs</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Breed</th>
+            <th>Weight</th>
+            <th>Height</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% dogs.each do |dog| %>
+            <tr>
+                <td><%= dog.name %></td>
+                <td><%= dog.breed %></td>
+                <td><%= dog.weight %></td>
+                <td><%= dog.height %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
