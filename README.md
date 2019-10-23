@@ -1,4 +1,4 @@
-# Skills Test S6, Version A
+# Skills Test S6, Version B
 
 Be sure that you are familiar with and have completed all the necessary [Skills Test instructions](https://memphis-cs.github.io/comp-4081/skills-test-instructions/) before beginning this test.
 
@@ -15,17 +15,9 @@ Be sure that you are familiar with and have completed all the necessary [Skills 
     ```
 
     If there are any uncommitted changes or any untracked files in your working directory, then you will need to do something about them before proceeding. For example, you might simply commit them all these familiar commands:
-
-    ```bash
-    git add -A
-    git commit -m "Old stuff"
-    ```
-
-1. In the terminal, download and checkout the branch for the test:
-
     ```bash
     git fetch
-    git checkout --track origin/s06a
+    git checkout --track origin/s06b
     ```
 
 1. Initialize the project by doing the following:
@@ -99,7 +91,7 @@ For this test, you have been given a partially complete Rails app, and it is you
 
 - A partially model class, like this:
 
-    ![A UML class diagram](./s06a_fig01.png)
+    ![A UML class diagram](./s06b_fig01.png)
 
 - A test fixtures YAML file that defines a valid model object.
 
@@ -134,18 +126,18 @@ Once you've completed all of the above, submit your work by doing the following:
 1. Generate a ZIP archive of your project by running the following command from within the top-level folder of your project's working directory:
 
     ```bash
-    git archive -o ../s06a-submission.zip --prefix=s06a-submission/ HEAD
+    git archive -o ../s06b-submission.zip --prefix=s06b-submission/ HEAD
     ```
 
-    This command should result in a file `s06a-submission.zip` being created in your `workspace` folder.
+    This command should result in a file `s06b-submission.zip` being created in your `workspace` folder.
 
-1. Upload this ZIP file to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `s06a zip (no video)`.
+1. Upload this ZIP file to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `s06b zip (no video)`.
 
     **This step must be completed by the end of the test time.**
 
 1. Stop your screen-capture recording such that a video file containing the recording is now created.
 
-1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `s06a video only`.
+1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `s06b video only`.
 
     A 15-minute grace period is given beyond the end of the test time for the submission of your video.
 
