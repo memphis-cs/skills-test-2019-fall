@@ -15,7 +15,7 @@ Be sure that you are familiar with and have completed all the necessary [Skills 
     ```
 
     If there are any uncommitted changes or any untracked files in your working directory, then you will need to do something about them before proceeding. For example, you might simply commit them all these familiar commands:
-    
+
     ```bash
     git add -A
     git commit -m "Old stuff"
@@ -107,9 +107,9 @@ For this test, you have been given a partially complete Rails app, and it is you
 
 Completing this app will involve two tasks:
 
-1. Complete the `TwitterTweet` model class by adding a validation that requires that the `message` string must not be longer than 140 characters in length.
+1. Complete the `TwitterTweet` model class by adding a validation that requires that the `message` string must be present (i.e., not `nil`, not an empty string (`""`), and not a string containing only whitespace characters).
 
-1. Complete the model test such that it verifies that a `TwitterTweet` object evaluates as invalid if it has a `message` value that is longer than 140 characters.
+1. Complete the model test such that it verifies that a `TwitterTweet` object evaluates as invalid if it has a `message` value that is `nil`, a `message` value that is `""`, and a `message` value that is `"\t"`. Notes that each of these `message` values will require a separate assertion to test it.
 
 If you complete both of the above tasks correctly, you should be able to run `rails test` and get output that looks like this:
 
@@ -122,7 +122,7 @@ Run options: --seed 41103
 .
 
 Finished in 0.089949s, 11.1175 runs/s, 11.1175 assertions/s.
-1 runs, 1 assertions, 0 failures, 0 errors, 0 skips
+1 runs, 3 assertions, 0 failures, 0 errors, 0 skips
 ```
 
 ## Part 3. Test Submission
