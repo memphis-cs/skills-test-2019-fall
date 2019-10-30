@@ -1,0 +1,9 @@
+<h1>Create Employee</h1>
+
+<%= form_with model: employee, url: employees_path, method: :post, local: true, scope: :employee do |form| %>
+    <div>
+        <%= form.label :dob %><br>
+        <%= form.date_select :dob %>
+    </div>
+    <%= form.submit "Submit" %>
+<% end %>
