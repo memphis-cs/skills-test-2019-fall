@@ -3,7 +3,7 @@
 <%= form_with model: employee, url: employees_path, method: :post, local: true, scope: :employee do |form| %>
     <div>
         <%= form.label :dob %><br>
-        <%= form.date_select :dob %>
+        <%= form.date_select :dob, start_year: 1900, end_year: Date.today.year %>
     </div>
     <%= form.submit "Submit" %>
 <% end %>

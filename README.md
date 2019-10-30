@@ -76,8 +76,6 @@ If the user clicks the `Create Employee` link, a partially implemented form page
 
 ![A screen shot of a webpage](./s07a_fig02.png)
 
-(Please ignore the minor bug in these figures that the submit button should have been labeled "`Submit`".)
-
 If you look at the `Employee` model class, you will see that the class has three key attributes, `first_name`, `last_name`, and `job_title`, that are missing from the form.
 
 In addition to the form being only partially implemented, the `EmployeesController` action that handles submissions of the form is also incomplete. (Thus, I wouldn't bother trying to submit the form at this point.)
