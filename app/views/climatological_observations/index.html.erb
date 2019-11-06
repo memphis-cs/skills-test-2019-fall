@@ -1,0 +1,31 @@
+<h1>Climatological Observations</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Station</th>
+            <th>Year</th>
+            <th>Month</th>
+            <th>Day</th>
+            <th>Max temp</th>
+            <th>Min temp</th>
+            <th>Precipitation</th>
+</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% climatological_observations.each do |climatological_observation| %>
+            <tr>
+                <td><%= climatological_observation.station %></td>
+                <td><%= climatological_observation.year %></td>
+                <td><%= climatological_observation.month %></td>
+                <td><%= climatological_observation.day %></td>
+                <td><%= climatological_observation.max_temp %></td>
+                <td><%= climatological_observation.min_temp %></td>
+                <td><%= climatological_observation.precipitation %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<p><%= link_to 'New Observation', new_climatological_observation_path %></p>
