@@ -10,9 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_11_06_040721) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "battleship_shots", force: :cascade do |t|
+    t.string "letter_coord"
+    t.string "number_coord"
+    t.string "result"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "climatological_observations", force: :cascade do |t|
+    t.string "station"
+    t.integer "year"
+    t.integer "month"
+    t.integer "day"
+    t.integer "max_temp"
+    t.integer "min_temp"
+    t.float "precipitation"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end

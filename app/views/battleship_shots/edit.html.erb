@@ -1,0 +1,23 @@
+<h1>Edit Battleship Shot</h1>
+
+<%= form_with model: battleship_shot, url: battleship_shot_path, method: :patch, local: true, scope: :battleship_shot do |form| %>
+
+  <!-- attribute fields -->
+  <div>
+    <%= form.label :letter_coord %><br>
+    <%= form.text_field :letter_coord %>
+  </div>
+
+  <div>
+    <%= form.label :number_coord %><br>
+    <%= form.text_field :number_coord %>
+  </div>
+
+  <div>
+    <%= form.label :result %><br>
+    <%= form.text_field :result %>
+  </div>
+
+  <%= form.submit "Submit" %>
+
+<% end %>

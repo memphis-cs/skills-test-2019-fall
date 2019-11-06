@@ -1,0 +1,25 @@
+<h1>Battleship Shots</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Letter Coordinate</th>
+            <th>Number Coordinate</th>
+            <th>Result</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% battleship_shots.each do |battleship_shot| %>
+            <tr>
+                <td><%= battleship_shot.letter_coord %></td>
+                <td><%= battleship_shot.number_coord %></td>
+                <td><%= battleship_shot.result %></td>
+                <td>
+                    <%= link_to '🖋', edit_battleship_shot_path(battleship_shot) %>
+                    <%= link_to '🗑', battleship_shot_path(battleship_shot), method: :delete %>
+                </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
