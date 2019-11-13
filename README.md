@@ -80,7 +80,7 @@ On the `index` page, if the user clicks the `🖋` link, a partially implemented
 
 ![A screen shot of a webpage](./s08b_fig02.png)
 
-Although the form appears to be complete with respect to the `BattleshipShot` model class, if you were to submit changes via the form, the changes would not actually be processed, and the app would simply take you back to the original `index` page.
+Although the form appears to be complete with respect to the `RpgCharacter` model class, if you were to submit changes via the form, the changes would not actually be processed, and the app would simply take you back to the original `index` page.
 
 Similarly, clicking the `🗑` link next to a record has no effect.
 
@@ -92,7 +92,7 @@ If the `edit` form is filled out with valid data, for example, like this after c
 
 ![A screen shot of a webpage](./s08b_fig03.png)
 
-Then, when the form is submitted, the app should update the `BattleshipShot` based on the form data in the database, redirect the browser to the `index` page, and display a success message using the flash, like this:
+Then, when the form is submitted, the app should update the `RpgCharacter` based on the form data in the database, redirect the browser to the `index` page, and display a success message using the flash, like this:
 
 ![A screen shot of a webpage](./s08b_fig04.png)
 
