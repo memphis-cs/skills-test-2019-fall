@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: rpg_characters
+#
+#  id           :bigint           not null, primary key
+#  charisma     :integer
+#  constitution :integer
+#  dexterity    :integer
+#  intelligence :integer
+#  name         :string
+#  strength     :integer
+#  wisdom       :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  strength: 1
+  dexterity: 1
+  constitution: 1
+  intelligence: 1
+  wisdom: 1
+  charisma: 1
+
+two:
+  name: MyString
+  strength: 1
+  dexterity: 1
+  constitution: 1
+  intelligence: 1
+  wisdom: 1
+  charisma: 1

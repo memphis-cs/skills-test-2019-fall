@@ -1,0 +1,43 @@
+<h1>Edit RPG Characters</h1>
+
+<%= form_with model: rpg_character, url: rpg_character_path, method: :patch, local: true, scope: :rpg_character do |form| %>
+
+  <!-- attribute fields -->
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :strength %><br>
+    <%= form.text_field :strength %>
+  </div>
+
+  <div>
+    <%= form.label :dexterity %><br>
+    <%= form.text_field :dexterity %>
+  </div>
+
+  <div>
+    <%= form.label :constitution %><br>
+    <%= form.text_field :constitution %>
+  </div>
+
+  <div>
+    <%= form.label :intelligence %><br>
+    <%= form.text_field :intelligence %>
+  </div>
+
+  <div>
+    <%= form.label :wisdom %><br>
+    <%= form.text_field :wisdom %>
+  </div>
+
+  <div>
+    <%= form.label :charisma %><br>
+    <%= form.text_field :charisma %>
+  </div>
+
+  <%= form.submit "Submit" %>
+
+<% end %>

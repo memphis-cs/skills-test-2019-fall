@@ -1,0 +1,33 @@
+<h1>RPG Characters</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Strength</th>
+            <th>Dexterity</th>
+            <th>Constitution</th>
+            <th>Intelligence</th>
+            <th>Wisdom</th>
+            <th>Charisma</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% rpg_characters.each do |rpg_character| %>
+            <tr>
+                <td><%= rpg_character.name %></td>
+                <td><%= rpg_character.strength %></td>
+                <td><%= rpg_character.dexterity %></td>
+                <td><%= rpg_character.constitution %></td>
+                <td><%= rpg_character.intelligence %></td>
+                <td><%= rpg_character.wisdom %></td>
+                <td><%= rpg_character.charisma %></td>
+                <td>
+                    <%= link_to '🖋', edit_rpg_character_path(rpg_character) %>
+                    <%= link_to '🗑', rpg_character_path(rpg_character), method: :delete %>
+                </td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
