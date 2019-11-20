@@ -90,11 +90,16 @@ Your task for this test is to complete this Rails app such that a one-to-many as
 
 ![A class diagram](./s09a_after_class_diagram.svg)
 
-Once this association is added, the `show` page must be updated to display associated records, like this:
+Once this association is added, the seed data must be updated to use the association, and the `show` page must be updated to display associated records, like this:
 
 ![A screen shot of a webpage](./s09a_after_show_page.png)
 
-Hint: To complete this task, you should need to create a new migration that add a FK column and to modify only the existing model classes and the existing `show` view.
+Hint: To complete this task, you should need to
+
+- create a new migration that add a FK column,
+- update the existing model classes,
+- update the existing database seeds, and
+- update the existing `show` view.
 
 ## Part 3. Test Submission
 
