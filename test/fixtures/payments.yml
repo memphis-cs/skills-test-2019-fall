@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: payments
+#
+#  id              :bigint           not null, primary key
+#  amount          :integer
+#  date_of_payment :date
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# one:
+#   amount: 1
+#   date_of_payment: 2019-11-19
+
+# two:
+#   amount: 1
+#   date_of_payment: 2019-11-19

@@ -1,0 +1,22 @@
+<h1>Loans</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Amount</th>
+            <th>Interest Rate</th>
+            <th>Date of Issue</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% loans.each do |loan| %>
+            <tr>
+                <td><%= '$%.2f' % (loan.amount.to_f / 100.0) %></td>
+                <td><%= '%.2f' % (loan.interest_rate * 100.0) + '%' %></td>
+                <td><%= loan.date_of_issue.strftime("%m/%d/%Y") %></td>
+                <td><%= link_to '🔎Show', loan_path(loan) %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

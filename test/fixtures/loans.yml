@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: loans
+#
+#  id            :bigint           not null, primary key
+#  amount        :integer
+#  date_of_issue :date
+#  interest_rate :float
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# one:
+#   amount: 1
+#   interest_rate: 1.5
+#   date_of_issue: 2019-11-19
+
+# two:
+#   amount: 1
+#   interest_rate: 1.5
+#   date_of_issue: 2019-11-19
