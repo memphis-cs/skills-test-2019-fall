@@ -86,7 +86,7 @@ On the `index` page, when the user clicks the `🔎Show` link, a partially imple
 
 ### How You Must Complete the App
 
-Your task for this test is to complete this Rails app such that a one-to-many association between the existing model classes, as depicted in this class diagram:
+Your task for this test is to complete this Rails app such that a one-to-many association between the existing model classes is added, as depicted in this class diagram:
 
 ![A class diagram](./s09a_after_class_diagram.svg)
 
