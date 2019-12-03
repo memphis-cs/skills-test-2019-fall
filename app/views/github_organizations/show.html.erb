@@ -1,0 +1,35 @@
+<h1>GitHub Organization</h1>
+
+<table>
+    <tr>
+        <th>Display Name</th>
+        <td><%= github_organization.display_name %></td>
+    </tr>
+    <tr>
+        <th>Description</th>
+        <td style="white-space: normal;"><%= github_organization.description %></td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td><%= github_organization.location %></td>
+    </tr>
+</table>
+
+<h2>Repositories</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Allow Forking?</th>
+            <th>Enforce HTTPS?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- REPOSITORY DATA GO HERE -->
+    </tbody>
+</table>
+
+<p>
+    <%= link_to 'Home', github_organizations_path %>
+</p>

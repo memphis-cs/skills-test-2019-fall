@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: github_repositories
+#
+#  id            :bigint           not null, primary key
+#  allow_forking :boolean
+#  enforce_https :boolean
+#  name          :string
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  allow_forking: false
+  enforce_https: false
+
+two:
+  name: MyString
+  allow_forking: false
+  enforce_https: false

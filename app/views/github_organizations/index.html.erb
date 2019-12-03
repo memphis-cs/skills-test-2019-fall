@@ -1,0 +1,22 @@
+<h1>GitHub Organizations</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Display Name</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% github_organizations.each do |organization| %>
+            <tr>
+                <td><%= organization.display_name %></td>
+                <td style="white-space: normal;"><%= organization.description %></td>
+                <td><%= organization.location %></td>
+                <td><%= link_to '🔎Show', github_organization_path(organization) %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
