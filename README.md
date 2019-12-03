@@ -96,7 +96,7 @@ Once this association is added, the seed data must be updated to use the associa
 
 Hint: To complete this task, you should need to
 
-- create a new migration that add a FK column,
+- create a new migration that adds an FK column,
 - update the existing model classes,
 - update the existing database seeds, and
 - update the existing `show` view.
