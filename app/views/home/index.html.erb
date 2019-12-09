@@ -1,10 +1,12 @@
 <h1 class="my-4">My Poetry</h1>
 
-    <div class="card container border-primary mb-3">
-        <div class="card-header row justify-content-between text-white bg-primary">
-            <h5 class='m-0'>POEM TITLE GOES HERE</h5>
+    <% poems. each do |poem| %>
+        <div class="card container border-primary mb-3">
+            <div class="card-header row justify-content-between text-white bg-primary">
+                <h5 class='m-0'><%= poem.title %></h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text"><%= simple_format poem.body %></p>
+            </div>
         </div>
-        <div class="card-body">
-            <p class="card-text"><%= simple_format "POEM GOES HERE\nHERE\nAND HERE" %></p>
-        </div>
-    </div>
+    <% end %>
