@@ -59,3 +59,5 @@ gem 'pgreset', '~> 0.1.1'
 group :development do
   gem 'annotate'
 end
+
+gem 'devise'
