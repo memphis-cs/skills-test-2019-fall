@@ -92,6 +92,8 @@ Note that in the above screenshot, the only poems displayed are the user `alice@
 
 Hint: To complete this task, you should need only to modify the existing controller and the existing view.
 
+Another hint: Use the Rails method [`simple_format`](https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-simple_format) to render the poem body. (An example of its usage is already in `index.html.erb`.) This methos will make it so that line breaks in the text also appear on the webpage.
+
 ## Part 3. Test Submission
 
 Once you've completed all of the above, submit your work by doing the following:
