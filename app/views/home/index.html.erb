@@ -3,7 +3,7 @@
     <% poems. each do |poem| %>
         <div class="card container border-primary mb-3">
             <div class="card-header row justify-content-between text-white bg-primary">
-                <h5 class='m-0'><%= poem.title %></h5>
+                <h5 class='m-0'><%= link_to '🖋', edit_poem_path(poem) %> <%= poem.title %></h5>
             </div>
             <div class="card-body">
                 <p class="card-text"><%= simple_format poem.body %></p>

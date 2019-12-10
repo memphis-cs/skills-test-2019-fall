@@ -1,0 +1,33 @@
+<h1 class="my-4">Edit Poem</h1>
+
+<%= form_with model: poem, url: poem_path, method: :patch, local: true, scope: :poem do |form| %>
+
+    <% invalid = poem.errors.include?(:title) %>
+    <div class="form-group">
+        <%= form.label :title %>
+        <%= form.text_field :title, class: "form-control #{'is-invalid' if invalid}" %>
+        <% if invalid %>
+            <div class="invalid-feedback d-block">
+                <% poem.errors.full_messages_for(:title).each do |error_message| %>
+                    <%= error_message %>.
+                <% end %>
+            </div>
+        <% end %>
+    </div>
+
+    <% invalid = poem.errors.include?(:body) %>
+    <div class="form-group">
+        <%= form.label :body %>
+        <%= form.text_area :body, rows: "16", class: "form-control #{'is-invalid' if invalid}" %>
+        <% if invalid %>
+            <div class="invalid-feedback d-block">
+                <% poem.errors.full_messages_for(:body).each do |error_message| %>
+                    <%= error_message %>.
+                <% end %>
+            </div>
+        <% end %>
+    </div>
+
+    <%= form.submit "Update Poem", class: "btn btn-block btn-primary" %>
+
+<% end %>
