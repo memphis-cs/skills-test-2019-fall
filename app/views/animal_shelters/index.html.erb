@@ -1,0 +1,24 @@
+<h1>Animal Shelters</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% animal_shelters.each do |animal_shelter| %>
+            <tr>
+                <td><%= animal_shelter.name %></td>
+                <td><%= animal_shelter.address %></td>
+                <td><%= animal_shelter.email %></td>
+                <td><%= animal_shelter.phone %></td>
+                <td><%= link_to '🔎', animal_shelter_path(animal_shelter) %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>

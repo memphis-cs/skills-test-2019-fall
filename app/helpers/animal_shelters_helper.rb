@@ -1,0 +1,2 @@
+module AnimalSheltersHelper
+end
