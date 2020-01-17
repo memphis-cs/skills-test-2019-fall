@@ -80,6 +80,8 @@ On the `index` page, when the user clicks the `🔎` link, a partially implement
 
 ![A screen shot of a webpage](./special-test_before_show_page.png)
 
+The key thing that is incomplete here is the table of associated dog records. (Only the table headings are displayed.)
+
 ### How You Must Complete the App
 
 Your task for this test is to complete this Rails app such that three key changes are made:
@@ -96,11 +98,21 @@ Note that there is a new model class (`Dog`) and an association between the mode
 
 The `show` page must be updated to display the `Dog` records associated with each `AnimalShelter`.
 
-To finish the task, complete the `show` page and add seed data such that the existing `AnimalShelter` `show` pages look like this:
+To finish the task, complete the `show` page and add seed data such that the existing `show` pages look like this:
 
 ![A screen shot of a webpage](./special-test_after_show_page_1.png)
 
 ![A screen shot of a webpage](./special-test_after_show_page_2.png)
+
+For ease of entering `Dog` data, here is a table from which you can copy/paste those data:
+
+| Name | Sex | Size | Breed |
+| ---- | --- | ---- | ----- |
+| xxx | xxx | xxx | xxx |
+| xxx | xxx | xxx | xxx |
+| xxx | xxx | xxx | xxx |
+| xxx | xxx | xxx | xxx |
+| xxx | xxx | xxx | xxx |
 
 ## Part 3. Test Submission
 
@@ -116,14 +128,6 @@ Once you've completed all of the above, submit your work by doing the following:
 
     This command should result in a file `special-test-submission.zip` being created in your `workspace` folder.
 
-1. Upload this ZIP file to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `special-test zip (no video)`.
+1. Email your zip file to [Scott.Fleming@memphis.edu](mailto:Scott.Fleming@memphis.edu) and [Jeff.Atkinson@memphis.edu](mailto:Jeff.Atkinson@memphis.edu) with the subject "`COMP 4081 Special Test Submission`".
 
     **This step must be completed by the end of the test time.**
-
-1. Stop your screen-capture recording such that a video file containing the recording is now created.
-
-1. Upload your video recording to the [eCourseware](https://elearn.memphis.edu/) dropbox labeled `special-test video only`.
-
-    A 15-minute grace period is given beyond the end of the test time for the submission of your video.
-
-1. Close your laptop, and sit quietly until the test period is over. You may **NOT** use your laptop or any device while you wait. However, you may, for example, read a book that you brought with you.
