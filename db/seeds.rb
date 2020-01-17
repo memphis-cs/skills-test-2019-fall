@@ -7,15 +7,15 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 s1 = AnimalShelter.create!(
-        name: 'Germantown Animal Shelter',
-        address: '7700 Southern Ave, Germantown, TN 38138',
-        email: 'gtas@email.com',
-        phone: '(901) 757-7358'
-    )
+    name: 'Germantown Animal Shelter',
+    address: '7700 Southern Ave, Germantown, TN 38138',
+    email: 'gtas@email.com',
+    phone: '(901) 757-7358'
+)
 
 s2 = AnimalShelter.create!(
-        name: 'Humane Society of Memphis',
-        address: '935 Farm Rd, Memphis, TN 38134',
-        email: 'memphis@humanesociety.org',
-        phone: '(901) 937-3900'
-    )
+    name: 'Humane Society of Memphis',
+    address: '935 Farm Rd, Memphis, TN 38134',
+    email: 'memphis@humanesociety.org',
+    phone: '(901) 937-3900'
+)

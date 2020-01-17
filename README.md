@@ -80,7 +80,7 @@ On the `index` page, when the user clicks the `🔎` link, a partially implement
 
 ![A screen shot of a webpage](./special-test_before_show_page.png)
 
-The key thing that is incomplete here is the table of associated dog records. (Only the table headings are displayed.)
+The key thing that is incomplete here is the table of associated dog records. Only the table headings are currently being displayed.
 
 ### How You Must Complete the App
 
@@ -108,11 +108,11 @@ For ease of entering `Dog` data, here is a table from which you can copy/paste t
 
 | Name | Sex | Size | Breed |
 | ---- | --- | ---- | ----- |
-| xxx | xxx | xxx | xxx |
-| xxx | xxx | xxx | xxx |
-| xxx | xxx | xxx | xxx |
-| xxx | xxx | xxx | xxx |
-| xxx | xxx | xxx | xxx |
+| Schwarzenegger | Male | Large | Pit Bull Terrier Mix |
+| Tater-Tot | Female | Medium | Pit Bull Terrier Mix |
+| Goober | Female | Large | American Staffordshire Terrier |
+| Peter | Male | Large | Labrador Retriever |
+| Grayson | Male | Small | Chow Chow |
 
 ## Part 3. Test Submission
 
